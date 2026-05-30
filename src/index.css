@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HIDE SCROLLBAR */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.main-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800; /* or 900 depending on boldness you want */
+    letter-spacing: 0.05em; /* optional: matches your screenshot */
+}
+
+
